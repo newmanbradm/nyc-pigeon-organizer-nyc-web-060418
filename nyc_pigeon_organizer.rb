@@ -5,5 +5,5 @@ def nyc_pigeon_organizer(data)
       arrary.each do |name|
         hash[name] ||= {}
         hash[name][attribute] ||= []
-        
+        hash[name][attribute] << key.to_s
 end
