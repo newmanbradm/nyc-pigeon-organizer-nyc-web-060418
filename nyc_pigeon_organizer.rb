@@ -6,4 +6,8 @@ def nyc_pigeon_organizer(data)
         hash[name] ||= {}
         hash[name][attribute] ||= []
         hash[name][attribute] << key.to_s
+      end
+    end
+  end
+  hash
 end
